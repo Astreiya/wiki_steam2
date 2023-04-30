@@ -9,6 +9,7 @@
     <title>Pokédex - Steam 2</title>
 </head>
 <body>
+    <!-- Navbar -->
     <nav class="navbar is-fixed-top is-dark">
         <div id="navbarPrincipal" class="navbar-menu">
             <div class="navbar-start">
@@ -26,15 +27,17 @@
             </div>
           </div>
     </nav>
+    <!-- Page heading -->
     <h1 class="title" id="dex_intro">Bienvenue sur le pokédex de Pokémon Steam 2 ! Ici tu trouveras les informations sur les différents pokémon des deux régions présentes dans le jeu.</h1>
     <hr>
     <p class="subtitle" id="dex_search">Recherche en cours d'implémentation...</p>
     <hr>
     <p class="subtitle" id="dex_content">Pokédex en cours d'implémentation...</p>
 
+    <!-- First card -->
     <div class="card">
-        <header class="card-header">
-          <p class="card-header-title">
+        <header class="card-header"> <!-- Card heading - Change only the title between the <p></p> -->
+          <p class="card-header-title"> 
             #1 - Bulbizarre
           </p>
           <button class="card-header-icon" aria-label="more options">
@@ -47,43 +50,65 @@
           <div class="content">
             <div class="columns">
                 <div class="column is-narrow">
-                    <figure class="image is-128x128"><img src="media/sprite_1.png" alt="Bulbizarre"></figure>
+                    <figure class="image is-128x128"><img src="media/sprite_1.png" alt="Bulbizarre"></figure> 
+                    <!-- 
+                    Pokemon sprite:
+                    - Must be in 128*128 dimension
+                    - With the name "sprite_[pokemonnumber]" 
+                    - Stored in the media folder 
+
+                    Don't forget to change the alt to the name of the pokemon
+                    -->
                 </div>
                 <div class="column">
                     <span class="subtitle-3">Localisation :</span>
-                    <span>Forêt Maudite</span>
+                    <span>Forêt Maudite</span> <!-- Localisation of the pokemon on the map -->
                     <br>
                     <span class="subtitle-3">Méthode d'évolution :</span>
-                    <span>Évolue au niveau 16</span>
+                    <span>Évolue au niveau 16</span> <!-- Evolution method -->
                     <br><br>
-                    <button class="js-modal-trigger button is-primary" data-target="modal-1">
+                    <!-- 
+                    The button following this comment triggers a modal which shows the movepool of the pokemon. To implement only if the pokemon is a fakemon.
+                    To implement it, change the data-target value to "modal-[pokemon-number]" then copy and paste the div whose id is "modal-1" by repacing the 1 with the pokemon's number and the placeholders with the good values
+                    Otherwise, movepools are the same than in 6G for 6G or before pokemon / their debut gen if they are from the 7th or 8th gen, so just put this code instead :
+                    <span class="subtitle-3">Movepool :</span>
+                    <span>Se référer au movepool 6G / 7G / 8G </span> <!-- Movepool -->
+                    <br>
+                    -->
+                    <button class="js-modal-trigger button is-primary" data-target="modal-1"> 
                         Movepool de Bulbizarre
                     </button>
                 </div>
             </div>
           </div>
         </div>
-        <footer class="card-footer">
+        <footer class="card-footer"> <!-- Card Footer - Change text for fakemons only -->
           <p class="card-footer-item">EV comme dans les jeux originaux</p>
           <p class="card-footer-item">Groupe d'oeufs comme dans les jeux originaux</p>
         </footer>
     </div>
-    <div class="modal" id="modal-1">
+    <!-- MODAL PLACEHOLDER START - COPY AND PASTE THIS IF YOU WANT TO CREATE A NEW MODAL -->
+    <div class="modal" id="modal-1"> <!-- Don't forget to change the id here too ! -->
         <div class="modal-background"></div>
         <div class="modal-card">
           <header class="modal-card-head">
-            <p class="modal-card-title">Movepool de Bulbizarre</p>
+            <p class="modal-card-title">Movepool de Bulbizarre</p> <!-- Modal title - Change text for the name of the pokemon -->
             <button class="delete" aria-label="close"></button>
           </header>
           <section class="modal-card-body content">
             <table>
-                <thead>
+                <thead> <!-- Modal table Header - No need to touch anything here -->
                   <tr>
                     <th>Niveau</th>
                     <th>Capacité apprise</th>
                   </tr>
                 </thead>
-                <tbody>
+                <tbody> 
+                    <!-- Modal table body : 
+                    - Change the values for the wished values. First <td> line is the level, second one is the learnt move.
+                    - Copy and paste a whole <tr></tr> block to create a new line
+                    - You can create as many lines as you wish
+                    -->
                   <tr>
                     <td>Three</td>
                     <td>Four</td>
@@ -109,5 +134,6 @@
           </section>
         </div>
       </div>
+    <!-- MODAL PLACEHOLDER END - COPY AND PASTE THIS IF YOU WANT TO CREATE A NEW MODAL -->
 </body>
 </html>
