@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" class="has-navbar-fixed-top">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    <title>Wiki Pokémon Steam 2</title>
-</head>
-<body>
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+      <title>Wiki Pokémon Steam 2</title>
+  </head>
+  <body>
     <nav class="navbar is-fixed-top is-dark">
         <div id="navbarPrincipal" class="navbar-menu">
             <div class="navbar-start">
@@ -26,6 +26,12 @@
                       </a>
                       <a class="navbar-item"href="../aventure/lieux.html">
                         Guide des lieux
+                      </a>
+                      <a class="navbar-item"href="../aventure/legendaire.html">
+                        Les Pokémon légendaires
+                      </a>
+                      <a class="navbar-item"href="../aventure/guide_explorakit.html">
+                        Comment fonctionne l'Explorakit ?
                       </a>
                     </div>
                 </div>
@@ -57,5 +63,97 @@
             </div>
         </div>
     </nav>
-</body>
+
+    <h1 class="title">Les objets de Pokémon Steam 2</h1>
+    <div class="subtitle">Dans cette rubrique, tu pourras trouver comment obtenir les objets présents dans Pokémon Steam 2 !</div>
+    
+    <hr>
+
+    <div class="container">
+      <div class="subtitle">💎 Les objets particuliers de Pokémon Steam 2 : </div>
+      <div>Des articles sont dédiés à répertorier la localisation de ces objets. Clique sur les boutons ci-dessous pour te rendre à l'article souhaité :</div>
+      <br>
+      <div class="container buttons is-responsive is-centered">
+        <button class="button is-link is-light is-rounded"> 
+          <a href="ct.html">| Les CT |</a>
+        </button>
+        <button class="button is-link is-light is-rounded"> 
+          <a href="#">| Les Méga-Gemmes |</a>
+        </button>
+        <button class="button is-link is-light is-rounded"> 
+          <a href="#">| Les objets de quête |</a>
+        </button>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+      <div class="subtitle">🎈 Les objets communs dans Pokémon Steam 2 : </div>
+
+      <!-- Card Begins -->
+      <div class="card" id="card_potion"> <!-- When copypasting, change the id to the name of the item-->
+        <header class="card-header"> <!-- Card heading - Change only the title between the <p></p> -->
+          <p class="card-header-title"> 
+            Potion
+          </p>
+        </header>
+        <div class="card-content">
+          <div class="content">
+            <div class="columns">
+              <div class="column is-narrow">
+                <figure class="image is-128x128"><img src="media/basic_item/potion.png" alt="Potion"></figure> 
+                    <!-- 
+                    Item sprite:
+                    - Must be in square dimension
+                    - With the name "[itemname].png" 
+                    - Stored in the media/basic_item folder 
+
+                    Don't forget to change the alt to the name of the item
+                    -->
+              </div>
+              <div class="column">
+                    <p>📚 Cet objet permet de redonner 20 PV au pokémon qui en bénéficie.</p>
+                    <p>📍 Boutiques Pokémon d'Exodius, Centres Pokémon de Tamériel, trouvables dans la nature</p>
+                    <p>💰 xx Pokédollars </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Card end -->
+    <br>
+    <!-- Card Begins -->
+    <div class="card" id="card_super_potion"> <!-- When copypasting, change the id to the name of the item-->
+      <header class="card-header"> <!-- Card heading - Change only the title between the <p></p> -->
+        <p class="card-header-title"> 
+          Super Potion
+        </p>
+      </header>
+      <div class="card-content">
+        <div class="content">
+          <div class="columns">
+            <div class="column is-narrow">
+              <figure class="image is-128x128"><img src="media/basic_item/potion.png" alt="Potion"></figure> 
+                  <!-- 
+                  Item sprite:
+                  - Must be in square dimension
+                  - With the name "[itemname].png" 
+                  - Stored in the media/basic_item folder 
+
+                  Don't forget to change the alt to the name of the item
+                  -->
+            </div>
+            <div class="column">
+                  <p>📚 Cet objet permet de redonner 50 PV au pokémon qui en bénéficie.</p>
+                  <p>📍 Boutiques Pokémon d'Exodius à partir du Xème badge, Centres Pokémon de Tamériel, trouvables dans la nature</p>
+                  <p>💰 xx Pokédollars </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- Card end -->
+    </div>
+  </body>
 </html>
