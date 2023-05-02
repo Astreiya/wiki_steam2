@@ -1,0 +1,741 @@
+TAZLA
+
+Centre commercial
+Etage1 - Shop Standard
+Hyper Ball 1200
+Super Ball 600
+Poké Ball 200
+Potion 300
+Antidote 100
+Anti-Brule 250
+Antigel 250
+Réveil 250
+Anti-Para 200
+Guérison 3000
+Hyper Potion 1200
+Super Potion 700
+Total Soin 600
+Rappel 1500
+Huile 1200
+Huile Max 2000
+Elixir 3000
+MaX Elixir 4500
+Super Repousse 500
+Max Repousse 700
+Repousse 350
+
+Etage2 - Gauche
+Poké Poupée 1000
+Pierre Soleil 2100
+Pierre Lune 2100
+Pierre Feu 2100
+Pierre Foudre 2100
+Pierre Eau 2100
+Pierre Plante 2100
+Pierre Eclat 2100
+Pierre Nuit 2100
+Pierre Aube 2100
+Pierre Ovale 2100
+Pierre Glace 1500
+
+Etage2 - Droite Gauche
+Poudre Argentée 4900
+Peau Métal 4900
+Sable Doux 4900
+Pierre Dure 4900
+Graine Miracle 4900
+Lunettes Noires 4900
+Ceintures Noir 4900
+Aimant 4900
+Eau Mystique 4900
+Bec Pointu 4900
+Pic Venin 4900
+Glace Eternelle 4900
+Rune Sort 4900
+Cuillère Tordue 4900
+Charbon 4900
+Croc Dragon 4900
+Mouchoire Soie 4900
+
+Etage2 - Droite Milieu
+Poudre Claire 1000
+Herbe Blanche 250
+Bracelet Macho 3000
+Vive Griffe 1000
+Roche Royale 1000
+Boule Fumée 2000
+Bandeau 500
+LentilScope 4000
+Restes 10000
+Grelot Coque 3000
+Bandeau Muscle 2000
+Ceinture Pro 2000
+Orbe Vie 10000
+Herbe Pouvoir 250
+Orbe Toxique 10000
+Orbe Flamme 10000
+Ceinture Force 500
+Lentille Zoom 2000
+Balle Fer 2000
+Boue Noire 5000
+Grosse Racine 2000
+Evoluroc 4800
+Casque Brut 2000
+Ballon 200
+Carton Rouge 1200
+Point de mire 200
+Bande Etreinte 500
+Bouton Fuite 2000
+Veste de Combat 9800
+
+Etage2 - Droite Droite
+Bandeau Choix 49000
+Mouchoir Choix 49000
+Lunettes Choix 49000
+
+
+MERILLITE
+
+Shop Standard
+
+
+BOURG GALETTE
+
+Shop Standard
+
+
+RIVER
+
+Shop Standard
+
+
+STAUNTON
+
+Shop Standard
+
+
+GRAVELOTTE
+
+Shop Standard
+
+Stand en Plein Air
+Baie Grena 20
+Baie Alga 20
+Baie Qualot 20
+Baie Lonme 20
+Baie Résin 20
+Baie Tamato 20
+
+
+TEATREE
+
+Shop Standard
+
+
+FERRI
+
+Distributeurs
+Eau Fraiche 200
+Soda Cool 300
+Limonade 350
+
+Centre Commecial
+Haut Gauche
+PV Plus 9800
+Protéine 9800
+Fer 9800
+Carbone 9800 
+Calcium 9800
+Zinc 9800
+
+Haut Droite
+Poké Poupée 1000
+Pierre Feu 2100
+Pierre Foudre 2100
+Pierre Eau 2100
+Pierre Plante 2100
+
+Bas Droite
+Shop Standard
+
+Stand en plein air
+Gauche
+Encens Mer 9600
+Encens Doux 9600
+Encens Bizarre 9600
+Encens Roc 9600
+Encens Plein 9600
+Encens Vague 9600
+Encens Fleur 9600
+Encens Veine 9600
+Encens Pur 9600
+
+Droite
+Soin Ball 300
+Huile 1200
+Elixir 3000
+Lava Cookie 200
+PP plus 5000
+Vieux Gateau 200
+
+Stand de Mamie Volute
+Lait Meumeu 500
+Jus de Baie 1500
+Roche Glace 200
+Glace Volute 200
+
+
+HERSELT
+
+Shop Standard
+
+Restaurant
+PV Plus 5000
+Protéine 5000
+Fer 5000
+Carbone 5000 
+Calcium 5000
+Zinc 5000
+PP Max 5000
+
+Stand en plain air
+Pierre Soleil 2100
+Pierre Lune 2100
+Pierre Eclat 2100
+Pierre Nuit 2100
+Pierre Aube 2100
+Pierre Ovale 2100
+Pierre Glace 1500
+
+
+BLANFORD
+Shop Standard
+
+Distributeurs
+
+Stand en plein air
+CS01 Coupe 25000
+CS02 Vol 25000
+CS03 Surf 25000
+CS04 Force 25000
+CS05 Cascade 25000
+CS06 Eclate-Roc 25000
+
+Pokemon World Tournament (PCO)
+Gauche
+Patch Talent 200
+Pillule Talent 50
+Capsule d'Argent 25
+Bandeau Choix 25
+Lunettes Choix 25
+Mouchoir Choix 25
+Veste de Combat 25
+Orbe Vie 25
+Carton Rouge 20
+Bouton Fuite 20
+Vulné-Assurance 20
+Ceinture Force 15
+Ballon 15
+Herbe Blanche 15
+Herbe Mental 15
+Herbe Pouvoir 15
+Lumargile 15
+Bulbe 10
+Pile 10
+Lichen Lumineux 10
+Boule de neige 10
+
+Milieu Gauche
+Aromate Solo 50
+Aromate Rigide 50
+Aromate Brave 50
+Aromate Assuré 50
+Aromate Malin 50
+Aromate Lache 50
+Aromate Relax 50
+Aromate Modeste 50
+Aromate Doux 50 
+Aromate Foufou 50
+Aromate Discret 50
+Aromate Calme 50
+Aromate Gentil 50
+Aromate Prudent 50
+Aromate Malpoli 50
+Aromate Timide 50
+Aromate Pressé 50
+Aromate Jovial 50
+Aromate Naif 50
+Aromate Sérieux 50
+
+Milieu Droite
+Anti-Brume 8
+Balayage 8
+Barrage 8
+Brouhaha 8
+Coup d'Main 8
+Dernier Recours 12
+Etreinte 4
+Glas de Soin 8
+Implore 4
+Onde de Choc 4
+Piqure 4
+Recyclage 8
+Ronflement 4
+Saisie 8
+Soucigraine 8
+Toile Elek 8
+
+Droite
+Entrainement Ultime (Capsule d'Or)
+
+FROZEN
+Shop Standard
+
+
+AVERUT
+Shop Standard
+
+Restaurant
+
+Casino
+Gauche
+50 Jetons 1000
+100 Jetons 2000
+500 Jetons 10000
+
+Milieu (Jetons)
+CT 06 Toxik 300
+CT 25 Fatal-Foudre 700
+CT 38 Déflagration 900
+
+Droite (Jetons)
+Métamorph 1000
+Togepi 6666
+Leveinard 9999
+
+
+DESERT DE SANDSTONE
+Stand en plein air
+Hyper Ball 1200
+Super Ball 600
+Poké Ball 200
+Eau Fraiche 200
+Herbe Rappel 2800
+Huile 1200
+Max Repousse 700
+Sable Doux 4900
+
+
+SANDSTONE
+Shop Standard
+
+
+BONANZA MOUNTA
+Shop Standard
+
+
+RAIGAON
+Distibuteurs
+
+Restaurant
+
+Centre Commercial
+Etage1 - Haut
+Shop Standard
+
+Etage1 - Bas
+Poké Poupée 1000
+Pierre Soleil 2100
+Pierre Lune 2100
+Pierre Feu 2100
+Pierre Foudre 2100
+Pierre Eau 2100
+Pierre Plante 2100
+Pierre Eclat 2100
+Pierre Nuit 2100
+Pierre Aube 2100
+Pierre Ovale 2100
+Pierre Glace 1500
+
+Etage2 - Droite
+PV Plus 9800
+Protéine 9800
+Fer 9800
+Carbone 9800 
+Calcium 9800
+Zinc 9800
+PP Max 9800
+
+Etage2 - Gauche Gauche
+Poudre Argentée 4900
+Peau Métal 4900
+Sable Doux 4900
+Pierre Dure 4900
+Graine Miracle 4900
+Lunettes Noires 4900
+Ceintures Noir 4900
+Aimant 4900
+Eau Mystique 4900
+Bec Pointu 4900
+Pic Venin 4900
+Glace Eternelle 4900
+Rune Sort 4900
+Cuillère Tordue 4900
+Charbon 4900
+Croc Dragon 4900
+Mouchoire Soie 4900
+
+Etage2 - Gauche Milieu
+Poudre Claire 1000
+Herbe Blanche 250
+Bracelet Macho 3000
+Vive Griffe 1000
+Roche Royale 1000
+Boule Fumée 2000
+Bandeau 500
+LentilScope 4000
+Restes 10000
+Grelot Coque 3000
+Bandeau Muscle 2000
+Ceinture Pro 2000
+Orbe Vie 10000
+Herbe Pouvoir 250
+Orbe Toxique 10000
+Orbe Flamme 10000
+Ceinture Force 500
+Lentille Zoom 2000
+Balle Fer 2000
+Boue Noire 5000
+Grosse Racine 2000
+Evoluroc 4800
+Casque Brut 2000
+Ballon 200
+Carton Rouge 1200
+Point de mire 200
+Bande Etreinte 500
+Bouton Fuite 2000
+Veste de Combat 9800
+
+Etage2 - Gauche Droite
+Bandeau Choix 49000
+Mouchoir Choix 49000
+Lunettes Choix 49000
+
+
+PARC DES COMBATS (PCO)
+Stands en plein air
+Bas Droite
+Entrainement Ultime (Capsule d'Or)
+
+Bas Gauche
+Patch Talent 200
+Pillule Talent 50
+Capsule d'Argent 25
+Bandeau Choix 25
+Lunettes Choix 25
+Mouchoir Choix 25
+Veste de Combat 25
+Orbe Vie 25
+Carton Rouge 20
+Bouton Fuite 20
+Vulné-Assurance 20
+Ceinture Force 15
+Ballon 15
+Herbe Blanche 15
+Herbe Mental 15
+Herbe Pouvoir 15
+Lumargile 15
+Bulbe 10
+Pile 10
+Lichen Lumineux 10
+Boule de neige 10
+
+Haut Gauche
+Aromate Solo 50
+Aromate Rigide 50
+Aromate Brave 50
+Aromate Assuré 50
+Aromate Malin 50
+Aromate Lache 50
+Aromate Relax 50
+Aromate Modeste 50
+Aromate Doux 50 
+Aromate Foufou 50
+Aromate Discret 50
+Aromate Calme 50
+Aromate Gentil 50
+Aromate Prudent 50
+Aromate Malpoli 50
+Aromate Timide 50
+Aromate Pressé 50
+Aromate Jovial 50
+Aromate Naif 50
+Aromate Sérieux 50
+
+Bas Gauche
+Aqua-Brèche 16
+Canicule 12
+Colère 16
+Croc Fatal 8
+Echange 8
+Exécu-son 16
+Détricanon 16
+Double Baffe 12
+Draco-Choc 12
+Mégaphone 12
+Piqué 16
+Sabotage 12
+Suc Digestif 8
+Surpuissance 16
+Telluriforce 12
+Trépignement 12
+Tricherie 12
+Vampipoing 8
+
+
+
+
+
+LOMETA
+Shop standard
+
+Distributeur
+
+Stand en plein air
+Balle Lumière 100
+Poing chance 10
+Poudre Métal 10
+Masse Os 500
+Poirot 200
+Poudre Vite 10
+Griffe Rasoir 2100
+Croc Rasoir 2100
+
+
+BAISIBLE 
+Shop Standard
+
+Stagiaire
+Poudrénergie 500
+Racinénergie 800
+Poudre Soin 450
+Herbe Rappel 2800
+
+
+FORT-HIVER 
+Shop Standard
+
+Stand en plein air
+Croc Dragon 4900
+Charbon 4900
+Cuillère Tordue 4900
+Rune Sort 4900
+Glace Eternelle 4900
+Pic Venin 4900
+Aimant 4900
+Eau Mystique 4900
+Bec Pointu 4900
+Graine Miracle 4900
+Lunettes Noires 4900
+Ceinture Noire 4900
+Pierre Dure 4900
+Sable Doux 4900
+Peau Métal 4900
+Poudre Argentée 4900
+
+
+DESERT DE TAMERIEL
+Stand en plein air
+Hyper Ball 1200
+Super Ball 600
+Poké Ball 200
+Eau Fraiche 200
+Herbe Rappel 2800
+Huile 1200
+Max Repousse 700
+Sable Doux 4900
+
+
+STYFORD
+Shop Standard
+
+
+GRANPORT
+Shop Standard
+
+Distributeurs
+
+Stands en plein air
+Droite (Tesson rouge + Tesson Bleu)
+Après Vous
+Dépit
+Giga-Sangsue
+Gravité
+Imitation
+Intervention
+Lévikinésie
+Mur de Fer
+Piège de Roc
+Poing Feu
+Queue de Fer
+Rayon Signal
+Rebond
+Synthèse
+Vibraqua
+Vol Magnétik
+
+Gauche
+Filet Ball 1000
+Scuba Ball 1000
+Faiblo Ball 1000
+Bis Ball 1000
+Chrono Ball 1000
+Luxe Ball 2000
+Sombre Ball 1000
+Soin Ball 300
+Rapide Ball 1000
+
+
+FORMENE 
+Shop Standard
+
+Distibuteurs
+
+Stand en plein air (jtedetesteBugfix)
+Baie Chocco 20
+Baie Pocpoc 20
+Baie Parma 20
+Baie Ratam 20
+Baie Nanone 20
+Baie Pomroz 20
+Baie Kébia 20
+Baie Jouca 20
+Baie Cobaba 20
+Baie Yapap 20
+Baie Panga 20
+Baie Charti 20
+Baie Sédra  20
+Baie Fraigo 20
+Baie Lampou 20
+Baie Babiriv 20
+Baie Zalis 20
+Baie Lichii 20
+Baie Lingan 20
+Baie Sailak 20
+Baie Pitaye 20
+Baie Abriko 20
+Baie Lansat 20
+Baie Frista 20
+Baie Enigma 20
+Baie Micle 20
+Baie Chérim 20
+Baie Jaboca 20
+Baie Pommo 20
+
+
+REMER
+Shop Standard
+
+
+SPIMALITE 
+Shop Standard
+
+Casino
+Gauche
+50 Jetons 1000
+100 Jetons 2000
+500 Jetons 10000
+
+Milieu (Jetons)
+CT 06 Toxik 300
+CT 25 Fatal-Foudre 700
+CT 38 Déflagration 900
+
+Droite (Jetons)
+Zorua 1000
+Noacier 6666
+Prédastérie 9999
+
+
+SOLIME
+Shop Standard
+
+Distributeurs
+
+Restaurant
+
+Stand en plein air
+Poignet Pouvoir 3000
+Ceinture Pouvoir 3000
+Lentille Pouvoir 3000
+Bandeau Pouvoir 3000
+Chaine Pouvoir 3000
+Poids Pouvoir 3000
+
+
+CATTLEWASH 
+Centre Commercial (comme Tazla)
+
+Scientifique de la Tour (Tesson Jaune + Tesson Vert)
+Affilage
+Balance
+Canon Graine
+Effort
+Hydro-Queue
+Mitra-Poing
+Poing Eclair
+Poing glace
+Psykoud'Boul
+Reflet Magik
+Tete de Fer
+Tour de Magie
+Tunnelier
+Vent Arrière
+Vent Glace
+Zone Etrange
+Zone Magique
+
+
+BAHAM
+Shop Standard
+
+
+MERITXELL
+Shop Standard
+
+Distributeurs
+
+
+MAREVILLE
+Shop Standard
+
+
+
+
+ÎLE DE RYFASSA
+Shop Standard
+
+Distributeurs
+
+Stand en plein air
+Grelot Zen 100
+Roche Royale 1000
+Dent Océan 200
+Ecaille Océan 200
+Bandeau 500
+Peau Métal 4900
+Ecaille Draco 2100
+Balle Lumiére 100
+Améliorator 2100
+Métronome 1000
+Piquants 200
+Protecteur 2100
+Electriseur 2100
+Magmariseur 2100
+CD Douteux 2100
+Tissu Fauche 2100
+Bel'Ecaille 500
+Chantibonbon 2100
+Sachet Senteur 2100
+Fil de Liaison 1000
+
