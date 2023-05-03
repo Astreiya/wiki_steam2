@@ -181,6 +181,57 @@
         </footer>
     </div>
     <!-- First card end -->
+	<br>
+	    <!-- Second card start -->
+	<div class="card"> <!-- When copypasting, REMOVE THE ID COMPLETELY (only leave the class part)-->
+        <header class="card-header"> <!-- Card heading - Change only the title between the <p></p> -->
+          <p class="card-header-title"> 
+            #2 - Herbizarre
+          </p>
+          <button class="card-header-icon" aria-label="more options">
+            <span class="icon">
+              <i class="fas fa-angle-down" aria-hidden="true"></i>
+            </span>
+          </button>
+        </header>
+        <div class="card-content">
+          <div class="content">
+            <div class="columns">
+                <div class="column is-narrow">
+                    <figure class="image is-128x128"><img src="media/sprite_2.png" alt="Herbizarre"></figure> 
+                    <!-- 
+                    Pokemon sprite:
+                    - Must be in 128*128 dimension
+                    - With the name "sprite_[pokemonnumber]" 
+                    - Stored in the media folder 
+                    Don't forget to change the alt to the name of the pokemon
+                    -->
+                </div>
+                <div class="column">
+                    <span class="subtitle-3">Localisation :</span>
+                    <span>Evoluer Bulbizarre niveau 16</span> <!-- Localisation of the pokemon on the map -->
+                    <br>
+                    <span class="subtitle-3">Talents :</span>
+                    <span>Engrais, Chlorophylle (talent caché)</span> <!-- Pokemon talent -->
+                    <br><br>
+                    <!-- 
+                    The button following this comment triggers a modal which shows the movepool of the pokemon. To implement only if the pokemon is a fakemon. To implement it, change the data-target value to "modal-[pokemon-number]" then copy and paste the div whose id is "modal-1" by repacing the 1 with the pokemon's number and the placeholders with the good values. Otherwise, movepools are the same than in 6G for 6G or before pokemon / their debut gen if they are from the 7th or 8th gen, so just put this code instead :
+                    <span class="subtitle-3">Movepool :</span>
+                    <span>Se référer au movepool 6G / 7G / 8G </span> 
+                    <br>
+                    -->
+                    <span class="subtitle-3">Movepool :</span>
+                    <span>Se référer au movepool 6G / 7G / 8G </span> 
+                    <br>
+                </div>
+            </div>
+          </div>
+        </div>
+        <footer class="card-footer"> <!-- Card Footer - Change text for fakemons only - For fakemons, put one info between one <p></p> duet at the time -->
+          <p class="card-footer-item">EV / Groupe d'oeufs / Evolution : Se référer aux info 6G</p>
+        </footer>
+    </div>
+    <!-- Second card end -->
     <!-- MODAL PLACEHOLDER START - COPY AND PASTE THIS IF YOU WANT TO CREATE A NEW MODAL -->
     <div class="modal" id="modal-1"> <!-- Don't forget to change the id here too ! -->
         <div class="modal-background"></div>
