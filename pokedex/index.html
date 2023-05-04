@@ -10,408 +10,370 @@
 </head>
 <body>
     <!-- Navbar -->
-    <nav class="navbar is-fixed-top is-dark">
-        <div id="navbarPrincipal" class="navbar-menu">
-            <div class="navbar-start">
-              <a class="navbar-item" href="../index.html">
-                Accueil
-              </a>
-              
-              <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link">
-                  Aventure
-                </a>
-        
-                <div class="navbar-dropdown">
-                  <a class="navbar-item" href="../aventure/index.html">
-                    Guide complet de l'aventure
-                  </a>
-                  <a class="navbar-item"href="../aventure/lieux.html">
-                    Guide des lieux
-                  </a>
-                </div>
-              </div>
-
-              <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link">
-                  Objets
-                </a>
-        
-                <div class="navbar-dropdown">
-                  <a class="navbar-item" href="../items/index.html">
-                    Les objets classiques
-                  </a>
-                  <a class="navbar-item" href="../items/rare_items.html">
-                    Les objets de quête
-                  </a>
-                  <a class="navbar-item" href="../items/ct.html">
-                    Les CT
-                  </a>
-                  <a class="navbar-item" href="../items/mega_stone.html">
-                    Les Méga Gemmes
-                  </a>
-                  <a class="navbar-item" href="../items/explorakit.html">
-                    Les objets de l'Explorakit
-                  </a>
-                </div>
-              </div>
-        
-              <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link">
-                  Pokédex
-                </a>
-        
-                <div class="navbar-dropdown">
-                  <a class="navbar-item" href="index.html">
-                    Pokédex complet du jeu
-                  </a>
-                  <a class="navbar-item" href="recompenses.html">
-                    Récompenses du Pokédex
-                  </a>
-                </div>
-              </div>
-            </div>
+  <nav class="navbar is-fixed-top is-dark">
+    <div id="navbarPrincipal" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="../index.html">Accueil</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">Aventure</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="../aventure/index.html">Guide complet de l'aventure</a>
+            <a class="navbar-item" href="../aventure/lieux.html">Guide des lieux</a>
+          </div>
         </div>
-    </nav>
+
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">Objets</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="../items/index.html">Les objets classiques</a>
+            <a class="navbar-item" href="../items/rare_items.html">Les objets de quête</a>
+            <a class="navbar-item" href="../items/ct.html">Les CT</a>
+            <a class="navbar-item" href="../items/mega_stone.html">Les Méga Gemmes</a>
+            <a class="navbar-item" href="../items/explorakit.html">Les objets de l'Explorakit</a>
+          </div>
+        </div>
+        
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link">Pokédex</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="index.html">Pokédex complet du jeu</a>
+            <a class="navbar-item" href="recompenses.html">Récompenses du Pokédex</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
     <!-- Page heading -->
-    <h1 class="title" id="dex_intro">Bienvenue sur le pokédex de Pokémon Steam 2 ! Ici tu trouveras les informations sur les différents pokémon des deux régions présentes dans le jeu.</h1>
+  <h1 class="title" id="dex_intro">Bienvenue sur le pokédex de Pokémon Steam 2 !</h1>
+  <div class="subtitle"> Ici tu trouveras les informations sur les différents pokémon des deux régions présentes dans le jeu.</div>
+  
+  <section class="hero is-danger">
+    <div class="hero-body">
+      <p class="title">
+        ⚠ Attention !
+      </p>
+      <p class="subtitle">
+        La page est en cours d'implémentation. Toutes les informations ne sont pas encore disponibles.
+      </p>
+    </div>
+  </section>
+  <br>
+
+  <div class="container">
+    <div class="subtitle has-text-grey" id="dex_search">🔎 Rechercher un pokémon :</div>
+      <aside class="menu">
+        <p class="menu-label">Rechercher par Génération...</p>
+        <ul class="menu-list">
+          <li><a href="#card_1_gen">Première génération</a></li>
+          <li><a href="#card_2_gen">Deuxième génération</a></li>
+          <li><a href="#card_3_gen">Troisième génération</a></li>
+          <li><a href="#card_4_gen">Quatrième génération </a></li>
+          <li><a href="#card_5_gen">Cinquième génératon </a></li>
+          <li><a href="#card_6_gen">Sixième génération </a></li>
+          <li><a href="#card_7_8_gen">Septième et Huitième générations</a></li>
+          <li><a href="#card_steam_gen">Génération Steam</a></li>
+        </ul>
+        <p class="menu-label">
+          Formes Régionales...
+        </p>
+        <ul class="menu-list">
+          <li><a href="#card_forme_alola">Formes d'Alola</a></li>
+          <li><a href="#card_forme_galar">Formes de Galar</a></li>
+          <li><a href="#card_forme_exodius">Formes d'Exodius</a></li>
+          <li><a href="#card_forme_tameriel">Formes de Tamériel</a></li>
+        </ul>
+      </aside>
+    </div>
     <hr>
     <div class="container">
-      <div class="subtitle has-text-grey" id="dex_search">
-        🔎 Rechercher par génération :
-      </div>
-      <div class="container buttons is-responsive is-rounded is-link is-centered">
-        <button class="button"> 
-		      <a href="#card_1_gen">=-= Première génération =-= </a>
-        </button>
-        <button class="button"> 
-		      =-= Seconde génération =-= 
-        </button>
-        <button class="button"> 
-		      =-= Troisième génération =-= 
-        </button>
-      </div>
-      <div class="container buttons is-responsive is-rounded is-link is-centered">
-        <button class="button"> 
-		       =-= Quatrième génération =-= 
-        </button>
-        <button class="button"> 
-		      =-= Cinquième génération =-= 
-        </button>
-        <button class="button"> 
-		      =-= Sixième génération =-= 
-        </button>
-      </div>
-      <div class="container buttons is-responsive is-rounded is-link is-centered">
-        <button class="button"> 
-		      =-= Septième et huitième générations =-=
-        </button>
-        <button class="button"> 
-		      =-= Génération Steam =-= 
-        </button>
-      </div>
-      <hr>
-      <p class="subtitle has-text-grey">🔎 Formes régionales :</p>
-      <div class="container buttons is-responsive is-rounded is-link is-centered">
-        <button class="button"> 
-		      =-= Alola =-=
-        </button>
-        <button class="button"> 
-		      =-= Galar =-=
-        </button>
-        <button class="button"> 
-		      =-= Exodius =-=
-        </button>
-        <button class="button"> 
-		      =-= Tameriel =-=
-        </button>
-      </div>
-    </div>
-    <hr>
-    <p class="subtitle" id="dex_content">Pokédex en cours d'implémentation...</p>
+      <br>
+      <div class="container" id="card_1_gen">
+        <p class="subtitle"> 1️⃣ Première Génération :</p>
+        <!-- First card start -->
+        <div class="card"> <!-- When copypasting, REMOVE THE ID COMPLETELY (only leave the class part)-->
+            <header class="card-header"> <!-- Card heading - Change only the title between the <p></p> -->
+              <p class="card-header-title"> 
+                #1 - Bulbizarre
+              </p>
+              <button class="card-header-icon" aria-label="more options">
+                <span class="icon">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </span>
+              </button>
+            </header>
+            <div class="card-content">
+              <div class="content">
+                <div class="columns">
+                    <div class="column is-narrow">
+                        <figure class="image is-128x128"><img src="media/sprite_1.png" alt="Bulbizarre"></figure> 
+                        <!-- 
+                        Pokemon sprite:
+                        - Must be in 128*128 dimension
+                        - With the name "sprite_[pokemonnumber]" 
+                        - Stored in the media folder 
 
-    <!-- First card start -->
-    <div class="card" id="card_1_gen"> <!-- When copypasting, REMOVE THE ID COMPLETELY (only leave the class part)-->
-        <header class="card-header"> <!-- Card heading - Change only the title between the <p></p> -->
-          <p class="card-header-title"> 
-            #1 - Bulbizarre
-          </p>
-          <button class="card-header-icon" aria-label="more options">
-            <span class="icon">
-              <i class="fas fa-angle-down" aria-hidden="true"></i>
-            </span>
-          </button>
-        </header>
-        <div class="card-content">
-          <div class="content">
-            <div class="columns">
-                <div class="column is-narrow">
-                    <figure class="image is-128x128"><img src="media/sprite_1.png" alt="Bulbizarre"></figure> 
-                    <!-- 
-                    Pokemon sprite:
-                    - Must be in 128*128 dimension
-                    - With the name "sprite_[pokemonnumber]" 
-                    - Stored in the media folder 
-
-                    Don't forget to change the alt to the name of the pokemon
-                    -->
+                        Don't forget to change the alt to the name of the pokemon
+                        -->
+                    </div>
+                    <div class="column">
+                        <span class="subtitle-3">Localisation :</span>
+                        <span>Forêt Maudite</span> <!-- Localisation of the pokemon on the map -->
+                        <br>
+                        <span class="subtitle-3">Talents :</span>
+                        <span>Chlorophylle</span> <!-- Pokemon talent -->
+                        <br><br>
+                        <!-- 
+                        The button following this comment triggers a modal which shows the movepool of the pokemon. To implement only if the pokemon is a fakemon. To implement it, change the data-target value to "modal-[pokemon-number]" then copy and paste the div whose id is "modal-1" by repacing the 1 with the pokemon's number and the placeholders with the good values. Otherwise, movepools are the same than in 6G for 6G or before pokemon / their debut gen if they are from the 7th or 8th gen, so just put this code instead :
+                        <span class="subtitle-3">Movepool :</span>
+                        <span>Se référer au movepool 6G / 7G / 8G </span> 
+                        <br>
+                        -->
+                        <button class="js-modal-trigger button is-primary" data-target="modal-1"> 
+                            Movepool de Bulbizarre
+                        </button> 
+                    </div>
                 </div>
-                <div class="column">
-                    <span class="subtitle-3">Localisation :</span>
-                    <span>Forêt Maudite</span> <!-- Localisation of the pokemon on the map -->
-                    <br>
-                    <span class="subtitle-3">Talents :</span>
-                    <span>Chlorophylle</span> <!-- Pokemon talent -->
-                    <br><br>
-                    <!-- 
-                    The button following this comment triggers a modal which shows the movepool of the pokemon. To implement only if the pokemon is a fakemon. To implement it, change the data-target value to "modal-[pokemon-number]" then copy and paste the div whose id is "modal-1" by repacing the 1 with the pokemon's number and the placeholders with the good values. Otherwise, movepools are the same than in 6G for 6G or before pokemon / their debut gen if they are from the 7th or 8th gen, so just put this code instead :
-                    <span class="subtitle-3">Movepool :</span>
-                    <span>Se référer au movepool 6G / 7G / 8G </span> 
-                    <br>
-                    -->
-                    <button class="js-modal-trigger button is-primary" data-target="modal-1"> 
-                        Movepool de Bulbizarre
-                    </button> 
-                </div>
+              </div>
             </div>
-          </div>
+            <footer class="card-footer"> <!-- Card Footer - Change text for fakemons only - For fakemons, put one info between one <p></p> duet at the time -->
+              <p class="card-footer-item">EV / Groupe d'oeufs / Evolution : Se référer aux info 6G</p>
+            </footer>
         </div>
-        <footer class="card-footer"> <!-- Card Footer - Change text for fakemons only - For fakemons, put one info between one <p></p> duet at the time -->
-          <p class="card-footer-item">EV / Groupe d'oeufs / Evolution : Se référer aux info 6G</p>
-        </footer>
-    </div>
-    <!-- First card end -->
-	<br>
-	    <!-- Second card start -->
-	<div class="card"> <!-- When copypasting, REMOVE THE ID COMPLETELY (only leave the class part)-->
-        <header class="card-header"> <!-- Card heading - Change only the title between the <p></p> -->
-          <p class="card-header-title"> 
-            #2 - Herbizarre
-          </p>
-          <button class="card-header-icon" aria-label="more options">
-            <span class="icon">
-              <i class="fas fa-angle-down" aria-hidden="true"></i>
-            </span>
-          </button>
-        </header>
-        <div class="card-content">
-          <div class="content">
-            <div class="columns">
-                <div class="column is-narrow">
-                    <figure class="image is-128x128"><img src="media/sprite_2.png" alt="Herbizarre"></figure> 
-                    <!-- 
-                    Pokemon sprite:
-                    - Must be in 128*128 dimension
-                    - With the name "sprite_[pokemonnumber]" 
-                    - Stored in the media folder 
-                    Don't forget to change the alt to the name of the pokemon
-                    -->
+        <!-- First card end -->
+      <br>
+          <!-- Second card start -->
+      <div class="card"> <!-- When copypasting, REMOVE THE ID COMPLETELY (only leave the class part)-->
+            <header class="card-header"> <!-- Card heading - Change only the title between the <p></p> -->
+              <p class="card-header-title"> 
+                #2 - Herbizarre
+              </p>
+              <button class="card-header-icon" aria-label="more options">
+                <span class="icon">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </span>
+              </button>
+            </header>
+            <div class="card-content">
+              <div class="content">
+                <div class="columns">
+                    <div class="column is-narrow">
+                        <figure class="image is-128x128"><img src="media/sprite_2.png" alt="Herbizarre"></figure> 
+                        <!-- 
+                        Pokemon sprite:
+                        - Must be in 128*128 dimension
+                        - With the name "sprite_[pokemonnumber]" 
+                        - Stored in the media folder 
+                        Don't forget to change the alt to the name of the pokemon
+                        -->
+                    </div>
+                    <div class="column">
+                        <span class="subtitle-3">Localisation :</span>
+                        <span>Faire évoluer Bulbizarre au niveau 16</span> <!-- Localisation of the pokemon on the map -->
+                        <br>
+                        <span class="subtitle-3">Talents :</span>
+                        <span>Engrais, Chlorophylle (talent caché)</span> <!-- Pokemon talent -->
+                        <br><br>
+                        <!-- 
+                        The button following this comment triggers a modal which shows the movepool of the pokemon. To implement only if the pokemon is a fakemon. To implement it, change the data-target value to "modal-[pokemon-number]" then copy and paste the div whose id is "modal-1" by repacing the 1 with the pokemon's number and the placeholders with the good values. Otherwise, movepools are the same than in 6G for 6G or before pokemon / their debut gen if they are from the 7th or 8th gen, so just put this code instead :
+                        <span class="subtitle-3">Movepool :</span>
+                        <span>Se référer au movepool 6G / 7G / 8G </span> 
+                        <br>
+                        -->
+                        <span class="subtitle-3">Movepool :</span>
+                        <span>Se référer au movepool 6G</span> 
+                        <br>
+                    </div>
                 </div>
-                <div class="column">
-                    <span class="subtitle-3">Localisation :</span>
-                    <span>Faire évoluer Bulbizarre au niveau 16</span> <!-- Localisation of the pokemon on the map -->
-                    <br>
-                    <span class="subtitle-3">Talents :</span>
-                    <span>Engrais, Chlorophylle (talent caché)</span> <!-- Pokemon talent -->
-                    <br><br>
-                    <!-- 
-                    The button following this comment triggers a modal which shows the movepool of the pokemon. To implement only if the pokemon is a fakemon. To implement it, change the data-target value to "modal-[pokemon-number]" then copy and paste the div whose id is "modal-1" by repacing the 1 with the pokemon's number and the placeholders with the good values. Otherwise, movepools are the same than in 6G for 6G or before pokemon / their debut gen if they are from the 7th or 8th gen, so just put this code instead :
-                    <span class="subtitle-3">Movepool :</span>
-                    <span>Se référer au movepool 6G / 7G / 8G </span> 
-                    <br>
-                    -->
-                    <span class="subtitle-3">Movepool :</span>
-                    <span>Se référer au movepool 6G</span> 
-                    <br>
-                </div>
+              </div>
             </div>
-          </div>
+            <footer class="card-footer"> <!-- Card Footer - Change text for fakemons only - For fakemons, put one info between one <p></p> duet at the time -->
+              <p class="card-footer-item">EV / Groupe d'oeufs / Evolution : Se référer aux info 6G</p>
+            </footer>
         </div>
-        <footer class="card-footer"> <!-- Card Footer - Change text for fakemons only - For fakemons, put one info between one <p></p> duet at the time -->
-          <p class="card-footer-item">EV / Groupe d'oeufs / Evolution : Se référer aux info 6G</p>
-        </footer>
-    </div>
-    <!-- Second card end -->
-		<br>
-	<div class="card">
-        <header class="card-header">
-          <p class="card-header-title"> 
-            #3 - Florizarre
-          </p>
-          <button class="card-header-icon" aria-label="more options">
-            <span class="icon">
-              <i class="fas fa-angle-down" aria-hidden="true"></i>
-            </span>
-          </button>
-        </header>
-        <div class="card-content">
-          <div class="content">
-            <div class="columns">
-                <div class="column is-narrow">
-                    <figure class="image is-128x128"><img src="media/sprite_3.png" alt="Florizarre"></figure> 
+        <!-- Second card end -->
+        <br>
+      <div class="card">
+            <header class="card-header">
+              <p class="card-header-title"> 
+                #3 - Florizarre
+              </p>
+              <button class="card-header-icon" aria-label="more options">
+                <span class="icon">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </span>
+              </button>
+            </header>
+            <div class="card-content">
+              <div class="content">
+                <div class="columns">
+                    <div class="column is-narrow">
+                        <figure class="image is-128x128"><img src="media/sprite_3.png" alt="Florizarre"></figure> 
+                    </div>
+                    <div class="column">
+                        <span class="subtitle-3">Localisation :</span>
+                        <span>Faire évoluer Herbizarre au niveau 32</span> 
+                        <br>
+                        <span class="subtitle-3">Talents :</span>
+                        <span>Engrais, Chlorophylle (talent caché)</span> 
+                        <br><br>
+                        <span class="subtitle-3">Movepool :</span>
+                        <span>Se référer au movepool 6G</span> 
+                        <br>
+                    </div>
                 </div>
-                <div class="column">
-                    <span class="subtitle-3">Localisation :</span>
-                    <span>Faire évoluer Herbizarre au niveau 32</span> 
-                    <br>
-                    <span class="subtitle-3">Talents :</span>
-                    <span>Engrais, Chlorophylle (talent caché)</span> 
-                    <br><br>
-                    <span class="subtitle-3">Movepool :</span>
-                    <span>Se référer au movepool 6G</span> 
-                    <br>
-                </div>
+              </div>
             </div>
-          </div>
+            <footer class="card-footer">
+              <p class="card-footer-item">EV / Groupe d'oeufs / Evolution : Se référer aux info 6G</p>
+            </footer>
         </div>
-        <footer class="card-footer">
-          <p class="card-footer-item">EV / Groupe d'oeufs / Evolution : Se référer aux info 6G</p>
-        </footer>
-    </div>
-		<br>
-	<div class="card">
-        <header class="card-header">
-          <p class="card-header-title"> 
-            #4 - Salameche
-          </p>
-          <button class="card-header-icon" aria-label="more options">
-            <span class="icon">
-              <i class="fas fa-angle-down" aria-hidden="true"></i>
-            </span>
-          </button>
-        </header>
-        <div class="card-content">
-          <div class="content">
-            <div class="columns">
-                <div class="column is-narrow">
-                    <figure class="image is-128x128"><img src="media/sprite_4.png" alt="Salameche"></figure> 
+        <br>
+      <div class="card">
+            <header class="card-header">
+              <p class="card-header-title"> 
+                #4 - Salameche
+              </p>
+              <button class="card-header-icon" aria-label="more options">
+                <span class="icon">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </span>
+              </button>
+            </header>
+            <div class="card-content">
+              <div class="content">
+                <div class="columns">
+                    <div class="column is-narrow">
+                        <figure class="image is-128x128"><img src="media/sprite_4.png" alt="Salameche"></figure> 
+                    </div>
+                    <div class="column">
+                        <span class="subtitle-3">Localisation :</span>
+                        <span>Exodius, Route 5</span> 
+                        <br>
+                        <span class="subtitle-3">Talents :</span>
+                        <span>Brasier, Force Soleil (talent caché)</span> 
+                        <br><br>
+                        <span class="subtitle-3">Movepool :</span>
+                        <span>Se référer au movepool 6G</span> 
+                        <br>
+                    </div>
                 </div>
-                <div class="column">
-                    <span class="subtitle-3">Localisation :</span>
-                    <span>Exodius, Route 5</span> 
-                    <br>
-                    <span class="subtitle-3">Talents :</span>
-                    <span>Brasier, Force Soleil (talent caché)</span> 
-                    <br><br>
-                    <span class="subtitle-3">Movepool :</span>
-                    <span>Se référer au movepool 6G</span> 
-                    <br>
-                </div>
+              </div>
             </div>
-          </div>
+            <footer class="card-footer">
+              <p class="card-footer-item">EV / Groupe d'oeufs / Evolution : Se référer aux info 6G</p>
+            </footer>
         </div>
-        <footer class="card-footer">
-          <p class="card-footer-item">EV / Groupe d'oeufs / Evolution : Se référer aux info 6G</p>
-        </footer>
-    </div>
-	<br>
-	<div class="card">
-        <header class="card-header">
-          <p class="card-header-title"> 
-            #5 - Reptincel
-          </p>
-          <button class="card-header-icon" aria-label="more options">
-            <span class="icon">
-              <i class="fas fa-angle-down" aria-hidden="true"></i>
-            </span>
-          </button>
-        </header>
-        <div class="card-content">
-          <div class="content">
-            <div class="columns">
-                <div class="column is-narrow">
-                    <figure class="image is-128x128"><img src="media/sprite_5.png" alt="Reptincel"></figure> 
+      <br>
+      <div class="card">
+            <header class="card-header">
+              <p class="card-header-title"> 
+                #5 - Reptincel
+              </p>
+              <button class="card-header-icon" aria-label="more options">
+                <span class="icon">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </span>
+              </button>
+            </header>
+            <div class="card-content">
+              <div class="content">
+                <div class="columns">
+                    <div class="column is-narrow">
+                        <figure class="image is-128x128"><img src="media/sprite_5.png" alt="Reptincel"></figure> 
+                    </div>
+                    <div class="column">
+                        <span class="subtitle-3">Localisation :</span>
+                        <span>Faire évoluer Salameche au niveau 16</span> 
+                        <br>
+                        <span class="subtitle-3">Talents :</span>
+                        <span>Brasier, Force Soleil (talent caché)</span> 
+                        <br><br>
+                        <span class="subtitle-3">Movepool :</span>
+                        <span>Se référer au movepool 6G</span> 
+                        <br>
+                    </div>
                 </div>
-                <div class="column">
-                    <span class="subtitle-3">Localisation :</span>
-                    <span>Faire évoluer Salameche au niveau 16</span> 
-                    <br>
-                    <span class="subtitle-3">Talents :</span>
-                    <span>Brasier, Force Soleil (talent caché)</span> 
-                    <br><br>
-                    <span class="subtitle-3">Movepool :</span>
-                    <span>Se référer au movepool 6G</span> 
-                    <br>
-                </div>
+              </div>
             </div>
-          </div>
+            <footer class="card-footer">
+              <p class="card-footer-item">EV / Groupe d'oeufs / Evolution : Se référer aux info 6G</p>
+            </footer>
         </div>
-        <footer class="card-footer">
-          <p class="card-footer-item">EV / Groupe d'oeufs / Evolution : Se référer aux info 6G</p>
-        </footer>
-    </div>
-	<br>
-	<div class="card">
-        <header class="card-header">
-          <p class="card-header-title"> 
-            #6 - Dracaufeu
-          </p>
-          <button class="card-header-icon" aria-label="more options">
-            <span class="icon">
-              <i class="fas fa-angle-down" aria-hidden="true"></i>
-            </span>
-          </button>
-        </header>
-        <div class="card-content">
-          <div class="content">
-            <div class="columns">
-                <div class="column is-narrow">
-                    <figure class="image is-128x128"><img src="media/sprite_6.png" alt="Dracaufeu"></figure> 
+      <br>
+      <div class="card">
+            <header class="card-header">
+              <p class="card-header-title"> 
+                #6 - Dracaufeu
+              </p>
+              <button class="card-header-icon" aria-label="more options">
+                <span class="icon">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </span>
+              </button>
+            </header>
+            <div class="card-content">
+              <div class="content">
+                <div class="columns">
+                    <div class="column is-narrow">
+                        <figure class="image is-128x128"><img src="media/sprite_6.png" alt="Dracaufeu"></figure> 
+                    </div>
+                    <div class="column">
+                        <span class="subtitle-3">Localisation :</span>
+                        <span>Faire évoluer Reptincel au niveau 36</span> 
+                        <br>
+                        <span class="subtitle-3">Talents :</span>
+                        <span>Brasier, Force Soleil (talent caché)</span> 
+                        <br><br>
+                        <span class="subtitle-3">Movepool :</span>
+                        <span>Se référer au movepool 6G</span> 
+                        <br>
+                    </div>
                 </div>
-                <div class="column">
-                    <span class="subtitle-3">Localisation :</span>
-                    <span>Faire évoluer Reptincel au niveau 36</span> 
-                    <br>
-                    <span class="subtitle-3">Talents :</span>
-                    <span>Brasier, Force Soleil (talent caché)</span> 
-                    <br><br>
-                    <span class="subtitle-3">Movepool :</span>
-                    <span>Se référer au movepool 6G</span> 
-                    <br>
-                </div>
+              </div>
             </div>
-          </div>
+            <footer class="card-footer">
+              <p class="card-footer-item">EV / Groupe d'oeufs / Evolution : Se référer aux info 6G</p>
+            </footer>
         </div>
-        <footer class="card-footer">
-          <p class="card-footer-item">EV / Groupe d'oeufs / Evolution : Se référer aux info 6G</p>
-        </footer>
-    </div>
-		<br>
-	<div class="card">
-        <header class="card-header">
-          <p class="card-header-title"> 
-            #7 - Carapuce
-          </p>
-          <button class="card-header-icon" aria-label="more options">
-            <span class="icon">
-              <i class="fas fa-angle-down" aria-hidden="true"></i>
-            </span>
-          </button>
-        </header>
-        <div class="card-content">
-          <div class="content">
-            <div class="columns">
-                <div class="column is-narrow">
-                    <figure class="image is-128x128"><img src="media/sprite_7.png" alt="Carapuce"></figure> 
+        <br>
+      <div class="card">
+            <header class="card-header">
+              <p class="card-header-title"> 
+                #7 - Carapuce
+              </p>
+              <button class="card-header-icon" aria-label="more options">
+                <span class="icon">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </span>
+              </button>
+            </header>
+            <div class="card-content">
+              <div class="content">
+                <div class="columns">
+                    <div class="column is-narrow">
+                        <figure class="image is-128x128"><img src="media/sprite_7.png" alt="Carapuce"></figure> 
+                    </div>
+                    <div class="column">
+                        <span class="subtitle-3">Localisation :</span>
+                        <span>Exodius, Route 6</span> 
+                        <br>
+                        <span class="subtitle-3">Talents :</span>
+                        <span>Torrent, Cuvette (talent caché)</span> 
+                        <br><br>
+                        <span class="subtitle-3">Movepool :</span>
+                        <span>Se référer au movepool 6G</span> 
+                        <br>
+                    </div>
                 </div>
-                <div class="column">
-                    <span class="subtitle-3">Localisation :</span>
-                    <span>Exodius, Route 6</span> 
-                    <br>
-                    <span class="subtitle-3">Talents :</span>
-                    <span>Torrent, Cuvette (talent caché)</span> 
-                    <br><br>
-                    <span class="subtitle-3">Movepool :</span>
-                    <span>Se référer au movepool 6G</span> 
-                    <br>
-                </div>
+              </div>
             </div>
-          </div>
+            <footer class="card-footer">
+              <p class="card-footer-item">EV / Groupe d'oeufs / Evolution : Se référer aux info 6G</p>
+            </footer>
         </div>
-        <footer class="card-footer">
-          <p class="card-footer-item">EV / Groupe d'oeufs / Evolution : Se référer aux info 6G</p>
-        </footer>
     </div>
+  </div>
     <!-- MODAL PLACEHOLDER START - COPY AND PASTE THIS IF YOU WANT TO CREATE A NEW MODAL -->
     <div class="modal" id="modal-1"> <!-- Don't forget to change the id here too ! -->
         <div class="modal-background"></div>
