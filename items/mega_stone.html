@@ -5,6 +5,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+      <script src="script.js"></script>
       <title>Wiki Pokémon Steam 2</title>
   </head>
   <body>
@@ -91,13 +92,13 @@
         <tbody> 
           <tr>
             <td>Absolite</td>
-            <td>Route 2 de Tamériel</td>
-            <td></td>
+            <td>Route 2 de Tamériel, nécessite l'objet pour surfer</td>
+            <td><button class="button is-info is-inverted is-small js-modal-trigger" data-target="absolite">Afficher la localisation...</button></td>
           </tr>
           <tr>
             <td>Alakazamite</td>
             <td>Route 4 d'Exodius</td>
-            <td></td>
+            <td><button class="button is-info is-inverted is-small js-modal-trigger" data-target="alakazamite">Afficher la localisation...</button></td>
           </tr>
           <tr>
             <td>Altarite</td>
@@ -192,7 +193,7 @@
           <tr>
             <td>Ectoplasmite</td>
             <td>Route 7 de Tamériel</td>
-            <td></td>
+            <td><button class="button is-info is-inverted is-small js-modal-trigger" data-target="ectoplasmite">Afficher la localisation...</button></td>
           </tr>
           <tr>
             <td>Elecsprintite</td>
@@ -267,7 +268,7 @@
           <tr>
             <td>Lockpinite</td>
             <td>Route 1 de Tamériel (nécessite l'objet pour surfer)</td>
-            <td></td>
+            <td><button class="button is-info is-inverted is-small js-modal-trigger" data-target="lockpinite">Afficher la localisation...</button></td>
           </tr>
           <tr>
             <td>Lucarite</td>
@@ -282,7 +283,7 @@
           <tr>
             <td>Métalossite</td>
             <td>Carrière de Tamériel</td>
-            <td></td>
+            <td><button class="button is-info is-inverted is-small js-modal-trigger" data-target="metalossite">Afficher la localisation...</button></td>
           </tr>
           <tr>
             <td>Mewtwoïte-X</td>
@@ -367,5 +368,116 @@
         </tbody>
       </table>
     </div>
+
+    <!-- Modal absolite -->
+    <div class="modal" id="absolite">
+      <div class="modal-background"></div>
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title">Localisation de l'Absolite</p>
+          <button class="delete" aria-label="close"></button>
+        </header>
+        <div class="modal-card-body">
+          <div class="box">
+            <p class="image is-4by3">
+              <img src="media/mega_stones_localisation/absolite.png" alt="Absolite">
+            </p>
+          </div>
+        </div>
+        <footer class="modal-card-foot">
+          <p class="modal-card-content">Route 2 de Tamériel, nécessite l'objet pour surfer</p>
+        </footer>
+        <button class="modal-close is-large" aria-label="close"></button>
+      </div>
+    </div>
+
+    <!-- Modal alakazamite -->
+    <div class="modal" id="alakazamite">
+      <div class="modal-background"></div>
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title">Localisation de l'Alakazamite</p>
+          <button class="delete" aria-label="close"></button>
+        </header>
+        <div class="modal-card-body">
+          <div class="box">
+            <p class="image is-4by3">
+              <img src="media/mega_stones_localisation/alakazamite.png" alt="Alakazamite">
+            </p>
+          </div>
+        </div>
+        <footer class="modal-card-foot">
+          <p class="modal-card-content">Route 4 d'Exodius</p>
+        </footer>
+        <button class="modal-close is-large" aria-label="close"></button>
+      </div>
+    </div>
+
+    <!-- Modal ectoplasmite -->
+    <div class="modal" id="ectoplasmite">
+      <div class="modal-background"></div>
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title">Localisation de l'Ectoplasmite</p>
+          <button class="delete" aria-label="close"></button>
+        </header>
+        <div class="modal-card-body">
+          <div class="box">
+            <p class="image is-4by3">
+              <img src="media/mega_stones_localisation/ectoplasmite.png" alt="Ectoplasmite">
+            </p>
+          </div>
+        </div>
+        <footer class="modal-card-foot">
+          <p class="modal-card-content">Route 7 de Tamériel</p>
+        </footer>
+        <button class="modal-close is-large" aria-label="close"></button>
+      </div>
+    </div>
+
+    <!-- Modal lockpiniite -->
+    <div class="modal" id="lockpinite">
+      <div class="modal-background"></div>
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title">Localisation de la Lockpinite</p>
+          <button class="delete" aria-label="close"></button>
+        </header>
+        <div class="modal-card-body">
+          <div class="box">
+            <p class="image is-4by3">
+              <img src="media/mega_stones_localisation/lockpinite.png" alt="Lockpinite">
+            </p>
+          </div>
+        </div>
+        <footer class="modal-card-foot">
+          <p class="modal-card-content">Route 1 de Tamériel, nécessite l'objet pour surfer</p>
+        </footer>
+        <button class="modal-close is-large" aria-label="close"></button>
+      </div>
+    </div>
+
+    <!-- Modal metalossite -->
+    <div class="modal" id="metalossite">
+      <div class="modal-background"></div>
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title">Localisation de la Métalossite</p>
+          <button class="delete" aria-label="close"></button>
+        </header>
+        <div class="modal-card-body">
+          <div class="box">
+            <p class="image is-4by3">
+              <img src="media/mega_stones_localisation/metalossite.png" alt="Métalossite">
+            </p>
+          </div>
+        </div>
+        <footer class="modal-card-foot">
+          <p class="modal-card-content">Carrière de Tamériel</p>
+        </footer>
+        <button class="modal-close is-large" aria-label="close"></button>
+      </div>
+    </div>
+    <br>
   </body>
 </html>
